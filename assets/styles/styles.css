@@ -52,3 +52,41 @@ html,body{
   height: 100%;
 }
 
+.cards-box{
+  padding: 20px;
+}
+
+.my-cards {
+  box-shadow: 0 4px 8px 0 rgba(16, 71, 69, 0.397);
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.my-cards img{
+  width: 100%;
+  height: 270px;
+  border-radius: 5px 5px 0 0;
+}
+
+.my-cards:hover{
+  box-shadow: 0 8px 16px 0 rgba(21, 116, 112, 0.397);
+}
+
+.container{
+  padding: 2px 16px;
+}
+
+.container h2{
+  font-size: 20px;
+  color:  #27c7c7;
+  text-align: center;
+}
+
+/* .my-card-1 {
+  background: url(../images/vanilla-cc.jpg);
+  filter: blur(8px);
+} */
