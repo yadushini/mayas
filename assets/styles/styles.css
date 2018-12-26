@@ -30,7 +30,7 @@ html,body{
 .my-heading-background {
   background:
     linear-gradient(        
-        rgba(16, 71, 69, 0.397),         
+        rgba(16, 71, 69, 0.425),         
         rgba(0, 0, 0, 0.705)),         
         url(../images/bg.jpg) no-repeat center;
   background-size: cover;
@@ -47,7 +47,8 @@ html,body{
   color: #27c7c7;
 }
 
-.my-about-background{
+.my-cards-background{
   background: rgb(13, 5, 26);
   height: 100%;
 }
+
