@@ -72,6 +72,10 @@ html,body{
   border-radius: 5px 5px 0 0;
 }
 
+.my-cards:hover h2{
+  color: #27c7c7;
+}
+
 .my-cards:hover{
   box-shadow: 0 8px 16px 0 rgba(21, 116, 112, 0.397);
 }
@@ -82,9 +86,13 @@ html,body{
 
 .container h2{
   font-size: 20px;
-  color:  #27c7c7;
+  color: #00796f;
   text-align: center;
 }
+
+/* .container:hover > h2{
+  color: #27c7c7;
+} */
 
 /* .my-card-1 {
   background: url(../images/vanilla-cc.jpg);
