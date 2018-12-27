@@ -1,16 +1,18 @@
-html,body{
-  height:100%;
+html, body {
+  height: 100%;
 }
+
+/* Navbar Section */
 
 .my-navbar {
   overflow: hidden;
-  display:block;
+  display: block;
   background-color: rgba(0, 0, 0, 0.459);
   position: fixed;
-  width:100%;
+  width: 100%;
 }
 
-.my-navbar a{
+.my-navbar a {
   font-size: 25px;
   color: #00796f;
   float: right;
@@ -18,26 +20,22 @@ html,body{
   padding: 10px;
 }
 
-.my-navbar a:hover{
+.my-navbar a:hover {
   background-color: rgba(16, 71, 69, 0.397);
   color: #27c7c7;
 }
 
-.my-navbar a.nav-logo{
+.my-navbar a.nav-logo {
   float: left;
 }
 
 .my-heading-background {
-  background:
-    linear-gradient(        
-        rgba(16, 71, 69, 0.425),         
-        rgba(0, 0, 0, 0.705)),         
-        url(../images/bg.jpg) no-repeat center;
+  background: linear-gradient( rgba(16, 71, 69, 0.425), rgba(0, 0, 0, 0.705)), url(../images/bg.jpg) no-repeat center;
   background-size: cover;
   height: 100%;
 }
 
-.my-heading-background > h1 {
+.my-heading-background>h1 {
   font-size: 80px;
   text-align: center;
   position: absolute;
@@ -47,17 +45,19 @@ html,body{
   color: #27c7c7;
 }
 
-.my-cards-background{
+/* Cards Section */
+
+.my-cards-background {
   background: rgb(13, 5, 26);
   height: 100%;
 }
 
-.cards-box{
+.cards-box {
   padding: 20px;
 }
 
 .my-cards {
-  box-shadow: 0 4px 8px 0 rgba(16, 71, 69, 0.397);
+  transition: 0.2s all;
   border-radius: 5px;
   width: 250px;
   height: 300px;
@@ -66,35 +66,61 @@ html,body{
   vertical-align: top;
 }
 
-.my-cards img{
+.my-cards img {
   width: 100%;
   height: 270px;
   border-radius: 5px 5px 0 0;
 }
 
-.my-cards:hover h2{
-  color: #27c7c7;
+.my-cards:hover h2 {
+  color: #00ffff;
 }
 
-.my-cards:hover{
-  box-shadow: 0 8px 16px 0 rgba(21, 116, 112, 0.397);
+.my-cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 255, 242, 0.397);
 }
 
-.container{
+.container {
   padding: 2px 16px;
 }
 
-.container h2{
+.container h2 {
   font-size: 20px;
-  color: #00796f;
+  color: #12ada0;
   text-align: center;
 }
 
-/* .container:hover > h2{
-  color: #27c7c7;
-} */
+.my-card-1 {
+  background: linear-gradient( rgba(1, 34, 33, 0.850), rgba(0, 0, 0, 0.850)), url(../images/vanilla-cc.jpg) no-repeat;
+  background-size: 300px 330px;
+}
 
-/* .my-card-1 {
-  background: url(../images/vanilla-cc.jpg);
-  filter: blur(8px);
-} */
+.my-card-2 {
+  background: linear-gradient( rgba(1, 34, 33, 0.850), rgba(0, 0, 0, 0.850)), url(../images/rose-champagne-cc.jpg) no-repeat;
+  background-size: 300px 330px;
+}
+
+.my-card-3 {
+  background: linear-gradient( rgba(1, 34, 33, 0.850), rgba(0, 0, 0, 0.850)), url(../images/red-velvet-cc.jpg) no-repeat;
+  background-size: 300px 330px;
+}
+
+/* Footer Section */
+
+.my-footer-background {
+  background:linear-gradient( rgba(13, 5, 26, 0.911), rgba(0, 0, 0, 0.801)), url(../images/bg.jpg) no-repeat;
+}
+
+.my-footer-background h1{
+  color: #28afa4;
+  font-size: 20px; 
+  text-align: center;
+  padding: 10px;
+}
+
+.my-footer-background h2{
+  color: #28afa4;
+  font-size: 20px; 
+  text-align: center;
+  padding-bottom: 10px;
+}
