@@ -6,7 +6,6 @@ html, body {
 
 .my-navbar {
   overflow: hidden;
-  display: block;
   background-color: rgba(0, 0, 0, 0.459);
   position: fixed;
   width: 100%;
@@ -20,14 +19,16 @@ html, body {
   padding: 10px;
 }
 
-.my-navbar a:hover {
+.my-navbar a:hover{
   background-color: rgba(16, 71, 69, 0.397);
   color: #27c7c7;
 }
 
-.my-navbar a.nav-logo {
+.my-navbar a.my-logo {
   float: left;
 }
+
+/* Heading Section */
 
 .my-heading-background {
   background: linear-gradient( rgba(16, 71, 69, 0.425), rgba(0, 0, 0, 0.705)), url(../images/bg.jpg) no-repeat center;
