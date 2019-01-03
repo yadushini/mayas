@@ -1,0 +1,136 @@
+@media screen and (max-width: 850px){
+  .my-heading-background h1{
+      font-size: 100px;
+  }
+}
+
+@media screen and (min-width:750px){
+  .drop-down{
+    display: none;
+  }
+
+  .my-drop-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 749px){
+  .my-heading-background h1{
+      font-size: 90px;
+  }
+    
+  .gallery {
+    display: none;
+  }
+
+  .contact-us {
+    display: none;
+  }
+
+  .drop-down {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.459);
+    top: 45px;
+    right: 0px;
+    padding: 4px;
+  }
+  
+  .drop-down h1 {
+    padding: 4px;
+  }
+
+  .my-drop-btn:hover .drop-down{
+    display: block;
+  }
+
+  .drop-down h1:hover {
+    background-color: rgba(16, 71, 69, 0.397);
+    color: #27c7c7;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .my-heading-background h1{
+      font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .my-heading-background h1{
+      font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .my-heading-background h1{
+      font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 475px){
+  .my-heading-background h1{
+      font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .my-heading-background h1{
+      font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .my-heading-background h1{
+      font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .my-heading-background h1{
+      font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .my-heading-background h1{
+      font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .my-heading-background h1{
+      font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .my-heading-background h1{
+      font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .my-heading-background h1{
+      font-size: 45px;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .my-heading-background h1{
+      font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 326px){
+  .my-heading-background h1{
+      font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .my-heading-background h1{
+      font-size: 45px;
+  }
+}
